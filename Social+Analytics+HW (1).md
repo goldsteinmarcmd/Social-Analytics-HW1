@@ -76,6 +76,7 @@ twitter_df.to_csv('pt1.csv')
 ```python
 plt.scatter(screen_name=["@nytimes"], screen_name=["@BBC"], screen_name=["@CBSNews"], screen_name=["@CNN"], 
             screen_name=["@FoxNews"])
+plt.title('Scatter Plot of Twitter Account 12-10-17')
 plt.savefig('twitterbarchart.png')
 plt.show()
 ```
@@ -385,7 +386,7 @@ plt.bar(x_values, sentiments_df[compound_list], tick_label=users)
 
 plt.xlabel('User')
 plt.ylabel('Scores')
-plt.title('Scores by Twitter Account')
+plt.title('Scores by Twitter Account 12-10-17')
 plt.savefig('sentiment_analysis.png')
 # Tell matplotlib that we will be making a bar chart
 # Users is our y axis and x_values is our x axis
